@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Unit Tests...
+  displayName: 'Unit Tests'
+- script: echo Deploy...
+  displayName: 'Deploy'
+- script: echo Request Data Theorem SAST Scan...
+  displayName: 'Request Data Theorem SAST Scan'
