@@ -1,5 +1,10 @@
 name: Data Theorem SAST (dev)
 
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
 # Controls when the workflow will run, adapt to your own needs
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
